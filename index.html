@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position:relative;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 25%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 75%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <nav class="topnav" id="navbar">
+       <header>
+         How to Buy a Crytocurrency
+       </header>
+       <a href="#Choose_an_Exchange" class="nav-link">
+           Choose an Exchange
+         </a>
+
+         <a href="#Register_and_Log_In" class="nav-link">
+             Register and Log In
+           </a>
+
+           <a href="#Connect_Your_Exchange_To_a_Payment_Method" class="nav-link">
+               Connect Your Exchange to a Payment Method
+             </a>
+
+             <a href="#Choose_Cryptocurrency_to_Buy" class="nav-link">
+                 Choose Cryptocurrency to Buy
+               </a>
+
+               <a href="#Place_an_Order" class="nav-link">
+                   Place an Order
+                 </a>
+                 </nav>
+
+             </div>
+
+  </div>
+  <div class="rightcolumn">
+
+    <div class="header">
+     <h1>How to Buy a Crytocurrency</h1>
+    </div>
+
+    <main id= "main-doc">
+      <div class="card">
+       <section class="main-section" id="Choose_an_Exchange">
+       <header>Choose an Exchange</header>
+         <code>First DO YOUR Own Research(DYOR) </code>
+         <ol>
+         <li> Is the exchange available in your area</li>
+         <li> does the exchange require KYC</li>
+         <li> can you send and transfer Crytocurrency from the exchange </li>
+         <li> do you have your id card/</li>
+         <li> is cryptocurrency allowed in your country?</li>
+       </ol>
+      <p> It is generally best practice to use an exchange that allows its users to also withdrawal their crypto to their own personal online wallet for safer keeping. For those looking to trade Bitcoin or other cryptocurrencies, this feature may not matter. </p>
+      <p>There are many types of cryptocurrency exchanges. Because the Cryptocurrency ethos is about decentralization and individual sovereignty, some exchanges allow users to remain anonymous and do not require users to enter personal information. Such exchanges operate autonomously and are typically decentralized, which means they do not have a central point of control. </p>
+</section>
+    </div>
+    <div class="card">
+      <section class="main-section" id="Register_and_Log_In">
+     <header>Register and Log In</header>
+     <code>Not Your Keys Not Your Coin</code>
+      <p>Its best practice to login enable double authenticator when logging in</p>
+      <p>An important thing to note when creating a cryptocurrency exchange account is to use safe internet practices. This includes using two-factor authentication and a password that is unique and long, including a variety of lowercase letters, capitalized letters, special characters, and numbers. </p>
+</section>
+    </div>
+    <div class="card">
+  <section class="main-section" id="Connect_Your_Exchange_To_a_Payment_Method">
+  <header>Connect Your Exchange to a Payment Method</header>
+  <code>Does Your Exchange Requires Personal Documents</code>
+  <p>The information you may need can depend on the region you live in and the laws within it.
+  After the exchange has ensured your identity and legitimacy, you will then be able to connect a payment option. At most exchanges, you can connect your bank account directly or you can connect a debit or credit card. Though you can use a credit card to purchase cryptocurrency, it is generally something that should be avoided due to the volatility that cryptocurrencies can experience.  </p>
+  <p></p>
+   </section>
+</div>
+<div class="card">
+  <section class="main-section" id="Choose_Cryptocurrency_to_Buy">
+  <header>Choose Cryptocurrency to Buy</header>
+  <code>Do not FOMO to Buy an Asset,There are Thousands of Crytocurrency you can Buy</code>
+  <p>Do You understand Technical,Fundamental and Sentimental Analysis</p>
+  <p>Stories of crypto-millionaires. People buying houses, thanks to bitcoin. How could you not be experiencing a fear of missing out?
+
+Investors often fall prey to the social bias of “herding,” Baker said. They do what the crowd does, believing that everyone else must know more than they do and that there’s safety in numbers. We can’t all lose our all money, they may think. </p>
+   </section>
+  </div>
+<div class="card">
+  <section class="main-section" id="Place_an_Order">
+  <header>Place an Order</header>
+<code>Its time to buy your first Cryptocurrency</code>
+  <p>market order most used order button</p>
+  <p>Crypto exchanges today offer a number of order types and ways to invest. Almost all crypto exchanges offer both market and limit orders and some also offer stop-loss orders. Of the exchanges mentioned above, Binance offers the most order types. Kraken allows for market, limit, stop-loss, stop-limit, take-profit, and take-profit limit orders.</p>
+   </section>
+</div>
+</main>
+
+  </div>
+</div>
+ <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
